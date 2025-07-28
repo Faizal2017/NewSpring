@@ -22,3 +22,44 @@ function UserForm() {
 }
 
 export default UserForm;
+/*   
+
+function userform()=>{
+    
+    const [name , setNmae] = useState(')
+    const [email , setEmail] = useState('')
+
+    const handleSubmit = async (e)=>{
+        e.prevent.default();
+
+        await axios.post("httttmp",{name ,maeil})
+        }
+    
+    
+    return (
+    <form onsubmit={handleSubmit}>
+
+    <input type="text" value={name} placeholdder="name" onchange={(e)=>{setname(e.targert.value)}}
+    </form>)}
+    <input value={email} id="email" placeholder="email.com" onChange={(e)=> setEmail(e.targert.value)}
+
+
+
+
+
+function userlist(){
+
+const [users, setUsers] = useState([]);
+
+
+useEffect({
+
+const getUser = async ()=>{
+    
+    const res = await axios.get()
+    set}
+},[])
+
+    }
+
+* */
